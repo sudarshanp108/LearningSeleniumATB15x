@@ -1,5 +1,6 @@
 package org.example.ex03_Locators;
 
+import io.qameta.allure.Description;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class TestSelenium16_LinkText_Partial_Text_TagName_Locators {
-
+    @Description("Verify that the create account Negative TC")
     @Test
     public void test_login_vwo() {
 
@@ -30,7 +31,7 @@ public class TestSelenium16_LinkText_Partial_Text_TagName_Locators {
 //        a_Tag_free_trail_full_match.click();
 
 
-        WebElement a_tag_partial_match = driver.findElement(By.partialLinkText("Start a free"));
+        WebElement a_tag_partial_match = driver.findElement(By.partialLinkText("trials"));
         // Start a free trial
         // Start a free
         // Start a
