@@ -16,12 +16,20 @@
 <!--    </test>-->
 <!--</suite>-->
 
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!--<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">-->
 
-<suite name="TTA Bank Suite" verbose="1">
-    <test name="TTA Signup and Fund Transfer Test">
+<!--<suite name="TTA Bank Suite" verbose="1">-->
+<!--    <test name="TTA Signup and Fund Transfer Test">-->
+<!--        <classes>-->
+<!--            <class name="org.example.Tasks.Task02_TTA_Digital_Bank"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
+
+<suite name="OHR Table Project" verbose="1">
+    <test name="OHR Signup and Table Navigation">
         <classes>
-            <class name="org.example.Tasks.Task02_TTA_Digital_Bank"/>
+            <class name="org.example.Tasks.Task03_OHR_Table_Project"/>
         </classes>
     </test>
 </suite>
