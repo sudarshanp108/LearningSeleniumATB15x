@@ -60,6 +60,5 @@ public class Task07_Booking_com_Automation {
             }
         }
 
-        driver.quit();
-    }
+        driver.quit();    }
 }

@@ -27,7 +27,7 @@ public class CommonToAll {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
     }
 
-    public void waitForVisibility(WebDriver driver, String xpath, String s){
+    public static void waitForVisibility(WebDriver driver, String xpath, String s){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
     }
